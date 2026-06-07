@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     const { prompt } = req.body;
 
     const response = await fetch(
-      `https://api-nanzz.my.id/docs/api/ai/worm-gpt.php?prompt=${encodeURIComponent(prompt)}`
+      `https://api-nanzz.my.id/docs/api/aii/worm-gpt.php?prompt=${encodeURIComponent(prompt)}`
     );
 
     if (!response.ok) {
